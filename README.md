@@ -42,4 +42,25 @@ Location à Montpellier - Gare - France du 18/09/2016 au 26/09/2016
   { Titre: 'Renault Trafic',
     Prix: '\r\n        666,47 €\r\n        Prix du véhicule\r\n      ' },
   { Titre: 'Mercedes Classe E',
-    Prix: '\r\n        753,13 €\r\n        Prix du véhicule\r\n      ' } ]```
+    Prix: '\r\n        753,13 €\r\n        Prix du véhicule\r\n      ' } ]
+```
+
+### TODO : 
+    
+1. nettoyer colonne prix
+2. lister automatiquement le prix des WE à venir
+3. lister les agences (dans mongo / fichier plat ?)
+4. stocker résultats (dans ES ?)
+5. alerte par mail (gare / seuil de prix) 
+6. UI
+7. analyse plus poussée sur l'évolution des pris
+
+
+### RENDU : 
+
+
+| Voiture   |      Catégorie      |  WE du xx au xx |  WE du xx au xx |  WE du xx au xx |Tendance|
+|----------|:-------------:|------:|------:|------:|------:|
+| Mercedes Classe C |  Luxe | $1600 | $1600 | $1600 | $1600 | hausse|
+| Renault Trafic |  Utilitaire | $1600 | $1600 | $1600 | $1600 |stable|
+| Peugeot 3008 |  Moyenne | $1600 | $1600 | $1600 | $1600 |baisse|
